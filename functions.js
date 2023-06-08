@@ -46,7 +46,7 @@ function findPossiblePasswords({ min = 184759, max = 856920, exactlyOneGroup = 1
             list += (password + '\n')
         }
     }
-    console.log(count);
+
     return { count: count, list }
 }
 
